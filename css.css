@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+}
+
+body {
+    background-color: #050000;
+}
+
+.sidebar {
+    width: 350px;
+    height: 730px;
+    box-shadow: 2px 2px 10px black;
+    margin-left: 30px;
+    margin-top: px;
+    color: white;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.sidebar_part1 {
+    background-color: rgba(11, 11, 11, 0.912);
+    padding: 20px;
+    font-size: 15px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebar_part2 {
+    height: 550px;
+    background-color: rgba(11, 11, 11, 0.912);
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+}
+
+.sidebar_part1 ul li i {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.sidebar_part1 ul {
+    list-style: none;
+}
+
+.sidebar_part2_header {
+    height: 50px;
+    display: flex;
+    font-size: 16px;
+}
+
+.sidebar_part2_header i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.sidebar_part2_header div {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.sidebar .plus {
+    font-size: 18px;
+    margin-left: 90px;
+}
+
+.sidebar .arrow {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.sidebar_part2_part1 {
+    height: 140px;
+    width: 300px;
+    background-color: rgba(37, 36, 36, 0.296);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar_part2_part1 h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sidebar_part2_part1 h6 {
+    font-size: 12px;
+    margin: 20px 10px;
+}
+
+.sidebar_part2_part1 button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.sidebar_part2_part2 {
+    height: 170px;
+    width: 300px;
+    background-color: rgba(37, 36, 36, 0.296);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sidebar_part2_part2 h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sidebar_part2_part2 h6 {
+    font-size: 12px;
+    margin: 20px 10px;
+}
+
+.sidebar_part2_part2 button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+hr {
+    width: 130px;
+    height: 1px;
+    margin: 10px;
+    background-color: white;
+    margin-left: 18px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.main_part {
+    background-color: rgba(24, 24, 24, 0.912);
+    width: 1250px;
+    height: 2000px;
+    margin-left: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.mainpart_header {
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.mainpart_header i {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.less {
+    margin-left: 30px;
+}
+
+.greater {
+    margin-left: 10px;
+}
+
+.user {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.Upgrade {
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 800px;
+}
+
+.install {
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 20px black
+}
+
+.install i {
+    padding: 0;
+}
+
+.card {
+    box-shadow: 2px 2px 10px black;
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 25px;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    background-color: #1e1e1e;
+}
+
+.card img {
+    width: 200px;
+}
+
+.outer_card h2 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.card .tittle {
+    margin: 10px 0px;
+}
+
+.row2_cards {
+    display: flex;
+}
+
+.row3_cards {
+    display: flex;
+}
+
+.row4_cards {
+    display: flex;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.footer_part1 {
+    font-size: 25px;
+    margin-left: 700px;
+}
+
+.footer_part1 i {
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.footer_part2 {
+    width: 70%;
+    height: 5px;
+    background-color: green;
+    accent-color: green
+}
+
+.span1 {
+    margin-left: 260px;
+}
+
+.range {
+    margin-bottom: 20px;
+}
